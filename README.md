@@ -2,17 +2,15 @@
 
 This repository contains a collection of Python tools for downloading, processing,
 interpolating, and visualizing **USGS NWIS Instantaneous Values (IV) streamflow data**.
-The primary purpose is to support **sink–rise hydrologic analysis**, where discharge
-from two hydrologic stations is compared through time.
+The primary purpose is to support **Santa Fe River Sink–Rise system hydrograph analysis**, where discharge
+from two hydrologic stations (River Sink & River Rise) is compared through time.
 
 The repository includes an interactive **Google Colab notebook**, which allows users to:
 
-- Retrieve USGS discharge data for any gauge station
 - Specify start/end date ranges
 - Interpolate time series to a uniform time grid
-- Plot the sink, rise, and sink–rise difference curves
+- Plot the Sink, Rise, and Sink–Rise difference curves
 - Explore flow dynamics without installing anything locally
-
 
 ---
 
@@ -29,7 +27,7 @@ No installation is required — everything runs in the cloud via Google Colab.
 
 ---
 
-## 📘 Features of the Notebook
+## Features of the Notebook
 
 ### Retrieve USGS IV Data  
 - Uses the official USGS NWIS Instantaneous Values API  
