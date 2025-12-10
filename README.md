@@ -1,12 +1,6 @@
 ## Santa Fe River Sink-Rise Streamflow Check
 
-The repository includes an interactive **Google Colab notebook**, which allows users to:
-
-- Specify start/end date ranges
-- Interpolate time series to a uniform time grid
-- Plot the Sink, Rise, and Sink–Rise difference curves
-
-No installation is required — everything runs in the cloud via Google Colab.
+No installation is required, everything runs in the cloud via Google Colab.
 
 Click below to run the tool:
 
